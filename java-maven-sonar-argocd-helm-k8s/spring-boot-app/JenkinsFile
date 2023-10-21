@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "cicdwebapp"
+            GIT_REPO_NAME = "cicd-webapp"
             GIT_USER_NAME = "markquest"
         }
         steps {
